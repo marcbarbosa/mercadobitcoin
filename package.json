@@ -1,0 +1,21 @@
+{
+    "name": "mercadobitcoin",
+    "description": "Mercado Bitcoin API client",
+    "version": "0.0.1",
+    "homepage": "https://github.com/marcbarbosa/mercadobitcoin",
+    "author": {
+        "name": "Marcelo Barbosa",
+        "email": "mbarbosa@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/marcbarbosa/mercadobitcoin.git"
+    },
+    "bugs": {
+        "url": "https://github.com/marcbarbosa/mercadobitcoin/issues"
+    },
+    "keywords": ["bitcoin", "exchange", "api", "mercadobitcoin"],
+    "dependencies": {
+        "unirest": "0.1.1"
+    }
+}
