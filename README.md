@@ -1,3 +1,7 @@
+[![NPM version](https://badge.fury.io/js/mercadobitcoin.png)](http://badge.fury.io/js/mercadobitcoin)
+
+#Mercado Bitcoin API client package
+
 ## Exemplos
 
 ```javascript
