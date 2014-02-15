@@ -9,7 +9,7 @@ npm install mercadobitcoin
 
 ## Usage
 
-There are 2 API endpontis. One for general info (public) and a trade API (require credentials)
+There are 2 API endpoints. One for general info (public) and a trade API (require credentials)
 
 ### API - [documentation](https://www.mercadobitcoin.com.br/api/)
 
