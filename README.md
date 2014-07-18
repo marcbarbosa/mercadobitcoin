@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/marcbarbosa/mercadobitcoin.png?label=ready&title=Ready)](https://waffle.io/marcbarbosa/mercadobitcoin)
 #Mercado Bitcoin API client
 [Mercado Bitcoin](https://www.mercadobitcoin.com.br) is a cryptocurrency exchange in Brazil.
 
