@@ -27,13 +27,13 @@ MercadoBitcoin.prototype = {
   },
 
   call: function (method, success) {
-    
+
     var isLitecoin = this.config.CURRENCY === 'LTC';
 
     unirest.get(ENDPOINT_API + method + (isLitecoin ? '_litecoin' : ''))
     .headers('Accept', 'application/json')
     .end(function (response) {
-      success(JSON.parse(response.body));
+      success(JSON.parse(response.raw_body));
     });
   }
 }
@@ -66,7 +66,7 @@ MercadoBitcoinTrade.prototype = {
   },
 
   call: function (method, parameters, success, error) {
-      
+
     var now = Math.round(new Date().getTime() / 1000);
     var signature = crypto.createHmac('sha512', this.config.SECRET)
                           .update(method + ':' + this.config.PIN + ':' + now)
