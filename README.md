@@ -27,7 +27,7 @@ mb.ticker(function (res) { console.log(res.ticker.last) });
 mb.orderBook(console.log);
 ```
 
-### TRADE API - [documentation](https://www.mercadobitcoin.com.br/tapi/configuracoes/)
+### TRADE API - [documentation](https://www.mercadobitcoin.com.br/trade-api/)
 
 Get your credentials at Mercado Bitcoin website
 
